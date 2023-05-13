@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 714504353826850408}
   - component: {fileID: 1822850369181226994}
   - component: {fileID: 7209216267962853099}
+  - component: {fileID: 3412119487365255051}
   - component: {fileID: 4405811413503894159}
   m_Layer: 0
   m_Name: platform
@@ -98,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.26549712}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.46, y: 0.64}
+  m_Size: {x: 1.46, y: 0.10900575}
   m_EdgeRadius: 0
 --- !u!251 &7209216267962853099
 PlatformEffector2D:
@@ -130,6 +131,22 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!111 &3412119487365255051
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714504353826850414}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 22fab0fd53a686340bea4b82a23d74ec, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 22fab0fd53a686340bea4b82a23d74ec, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &4405811413503894159
 MonoBehaviour:
   m_ObjectHideFlags: 0
